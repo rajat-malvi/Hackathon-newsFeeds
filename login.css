@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+header{
+    background-color: rgba(138, 67, 237, 0.91);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 36px;
+    width: 247px;
+    background-image: url(img/Jago-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.nav-login{
+    width: 30%;
+    padding-bottom: 10px;
+}
+.main{
+    width: 90%;
+    margin: 80px auto;
+}
+.container{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-image{
+    height: 100px;
+    width: 300px;
+    background-image: url(img/Jago-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* card css */
+.box-left{
+    margin: auto;
+}
+.box{
+    border: 2px solid #c2ccc2;
+    /* background-image: linear-gradient(pink 50%,black 10%); */
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.input_box{
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid #c2c2c2;   
+        
+}
+.input_box:hover{
+    border-bottom: 2px solid black;
+
+}
+.password a{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+#occupassion{
+    width: 210px;
+    background-color: #c2c2c268;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    border: none;
+}
+.btn{
+    width: 40%;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid #c2c2c2;
+    background-color: rgba(138, 67, 237, 0.91);
+    font-weight: 600;
+}
+.btn a{
+    color: #fff;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#login{
+    background-color: #fff    
+}
+#login a{
+    color: black;
+}
+
+
+/* right section */
+.box-right{
+    width: 50%;    
+}
+.box-right img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    overflow-block:hidden;
+    
+}
+
